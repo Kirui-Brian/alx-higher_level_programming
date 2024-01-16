@@ -1,4 +1,2 @@
 #!/bin/bash
-
-# Check if the $PYFILE environment variable is set
 [ -z "$PYFILE" ] && echo "Error: Environment variable \$PYFILE is not set." || python "$PYFILE"
