@@ -1,2 +1,2 @@
 #!/bin/bash
-[ -z "$PYFILE" ] && echo "Error: Environment variable \$PYFILE is not set." || python "$PYFILE"
+[ -z "$PYFILE" ] && echo "C is fun!" || python "$PYFILE"
