@@ -1,2 +1,2 @@
 #!/bin/bash
-[ -z "$PYCODE" ] || echo "$PYCODE" | python -
+/usr/bin/python3 -c "$PYCODE"
