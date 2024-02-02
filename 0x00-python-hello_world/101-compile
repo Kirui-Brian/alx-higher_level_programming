@@ -1,5 +1,21 @@
-#!/bin/bash
-/usr/bin/python3 -m py_compile $PYFILE
-mv __pycache__/*.pyc ../PYFILE'c'
-chmod +x $PYFILE'c'
-rm -R __pycache__
+#!/usr/bin/python3
+
+import os
+import py_compile
+
+# Retrieve the Python file name from the environment variable
+py_file = os.environ.get("PYFILE")
+
+if py_file:
+    # Construct the output file name
+    pyc_file = py_file + "c"
+
+    try:
+        # Compile the Python file
+        py_compile.compile(py_file, cfile=pyc_file)
+        print(f"Compiling {py_file} ... Done!")
+    except py_compile.PyCompileError as err:
+        print(f"Compilation error: {err}")
+else:
+    print("Error: PYFILE environment variable not set.")
+
