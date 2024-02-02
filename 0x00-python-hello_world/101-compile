@@ -1,0 +1,17 @@
+#!/usr/bin/python3
+
+import py_compile
+import os
+
+# Get the Python file name from the environment variable
+pyfile = os.getenv("PYFILE")
+
+if pyfile:
+    # Compile the Python file
+    py_compile.compile(pyfile, cfile=pyfile + "c")
+
+    # Print the compiled file path
+    compiled_file = pyfile + "c"
+    print(f"Compiled file saved as: {compiled_file}")
+else:
+    print("Error: Environment variable PYFILE not set.")
