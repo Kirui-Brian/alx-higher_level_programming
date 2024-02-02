@@ -11,7 +11,7 @@ TMP_PY_FILE=$(mktemp)
 echo "$PYCODE" > "$TMP_PY_FILE"
 
 # Run the Python code
-python "TMP_PY_FILe"
+python "TMP_PY_FILE"
 
 # Clean up the temporary file
 rm "$TMP_PY_FILE"
