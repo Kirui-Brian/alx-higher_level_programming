@@ -2,9 +2,10 @@
 
 def uppercase(s):
     """Print a string in uppercase followed by a new line."""
+    uppercase_str = ""
     for char in s:
         if ord('a') <= ord(char) <= ord('z'):
-            print("{:c}".format(ord(char) - 32), end="")
+            uppercase_str += chr(ord(char) - 32)
         else:
-            print("{:c}".format(ord(char)), end="")
-    print()
+            uppercase_str += char
+    print("{}".format(uppercase_str)))
