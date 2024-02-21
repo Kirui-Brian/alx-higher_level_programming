@@ -2,4 +2,4 @@
 
 for x in range(ord('a'), ord('z') + 1):
     if chr(x) != 'q' and chr(x) != 'e':
-        print("{:s}".format(chr(x)), end=""
+        print("{:s}".format(chr(x)), end="")
