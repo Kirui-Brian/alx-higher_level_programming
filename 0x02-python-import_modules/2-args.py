@@ -8,6 +8,6 @@ if __name__ == "__main__":
     elif argc == 1:
         print("{:d} argument:".format(argc))
     else:
-        print("{:d} argument:".format(argc))
+        print("{:d} arguments:".format(argc))
     for i, arg in enumerate(argv[1:], 1):
         print("{:d}: {}".format(i, arg))
