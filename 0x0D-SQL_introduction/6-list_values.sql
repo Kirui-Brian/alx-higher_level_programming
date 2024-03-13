@@ -1,3 +1,2 @@
-USE $1;
-
-SELECT * FROM first_table;
+-- SQL command that lists all rows in the table first_table
+SELECT * FROM `first_table`;
