@@ -1,2 +1,2 @@
-USE $1;
+USE mysql;
 SHOW TABLES;
