@@ -1,4 +1,4 @@
-USE $1;
+USE mysql;
 
 CREATE TABLE IF NOT EXISTS first_table (
     id INT,
