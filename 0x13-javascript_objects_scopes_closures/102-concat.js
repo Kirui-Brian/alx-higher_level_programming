@@ -12,5 +12,3 @@ const contentB = fs.readFileSync(fileB, { encoding: 'utf8', flag: 'r' });
 
 // Concatenate the contents and write to the destination file
 fs.writeFileSync(fileC, contentA + contentB);
-
-console.log(`Contents of ${fileA} and ${fileB} have been concatenated into ${fileC}`);
