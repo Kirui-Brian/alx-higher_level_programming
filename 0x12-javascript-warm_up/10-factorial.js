@@ -1,6 +1,6 @@
 #!/usr/bin/node
 const n = Number(process.argv[2]);
-function fact(n) {
+function fact (n) {
   if (n === 1) {
     return 1;
   }
