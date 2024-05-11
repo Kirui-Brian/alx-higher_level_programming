@@ -5,12 +5,12 @@ const fs = require('fs');
 const [,, fileA, fileB, fileC] = process.argv;
 
 // Read the content of the first file
-const contentA = fs.readFileSync(fileA, { encoding: 'utf8', flag: 'r' });
+const contentA = fs.readFileSync (fileA, { encoding: 'utf8', flag: 'r' });
 
 //Read the content of the second file
-const contentB = fs.readFileSync(fileB, { encoding: 'utf8', flag 'r' });
+const contentB = fs.readFileSync (fileB, { encoding: 'utf8', flag 'r' });
 
 // Concatenate the contents and write to the destination file
-fs.writeFileSync(FileC, contentA + contentB);
+fs.writeFileSync (FileC, contentA + contentB);
 
 console.log(`Contents of ${fileA} and ${fileB} have been concatenated into ${fileC}`);
