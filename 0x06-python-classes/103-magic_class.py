@@ -1,16 +1,18 @@
 #!/usr/bin/python3
-import math
+"""
+Module: 103-magic_class
 
+This module defines the MagicClass, which represents a circle with a given
+radius. It provides methods to calculate the area and circumference of the circle.
 """
-This module defines the MagicClass which represents a circle with a given
-radius. It can calculate the area and circumference of the circle.
-"""
+
+import math
 
 
 class MagicClass:
     """
-    This class represents a circle with a given radius.
-    It can calculate the area and circumference of the circle.
+    Represents a circle with a given radius and provides methods to calculate
+    its area and circumference.
     """
 
     def __init__(self, radius=0):
