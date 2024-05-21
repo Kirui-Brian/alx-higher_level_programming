@@ -29,8 +29,8 @@ class Square:
 
         Parameters:
             size (int): The size of the square, default is 0.
-            position (tuple): The position offset for printing the square, 
-                              default is (0, 0).
+            position (tuple): The position offset for printing the square,
+                            default is (0, 0).
 
         Raises:
             TypeError: If size is not an integer or position is not a tuple
@@ -154,7 +154,7 @@ class Square:
         """
         if (not isinstance(position, tuple) or len(position) != 2 or
                 not all(isinstance(num, int)
-                    and
-                    num >= 0 for num in position)):
+                and
+                num >= 0 for num in position)):
             raise TypeError("position must be a tuple of 2 positive integers")
         return True
