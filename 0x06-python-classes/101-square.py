@@ -135,3 +135,13 @@ class Square:
         elif not all(isinstance(num, int) and num >= 0 for num in position):
             raise ValueError("position must be a tuple of 2 positive integers")
         return True
+
+
+if __name__ == "__main__":
+    my_square = Square(5, (0, 0))
+    print(my_square)
+
+    print("--")
+
+    my_square = Square(5, (4, 1))
+    print(my_square)
