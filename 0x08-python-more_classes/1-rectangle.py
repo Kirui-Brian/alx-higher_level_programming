@@ -71,8 +71,8 @@ class Rectangle:
     @height.setter
     def height(self, value):
         """
-        Setter for the height attribute. Validates that the height is an integer
-        and is >= 0.
+        Setter for the height attribute.
+        Validates that the height is an integer and is >= 0.
 
         Parameters:
             value (int): The new height of the rectangle.
