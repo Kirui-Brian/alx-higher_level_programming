@@ -1,4 +1,9 @@
+#!/usr/bin/python3
 import math
+"""
+This class represents a circle with a given radius.
+It can calculate the area and circumference of the circle.
+"""
 
 
 class MagicClass:
