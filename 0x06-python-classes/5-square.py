@@ -4,7 +4,7 @@ Module: square
 
 This module defines a Square class with a private instance attribute 'size',
 methods to get and set the size, a method to calculate the area of the square,
-a method to print the square using '#' characters, and a private method to 
+a method to print the square using '#' characters, and a private method to
 validate the size.
 """
 
