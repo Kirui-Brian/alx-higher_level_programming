@@ -152,7 +152,8 @@ class Square:
         Returns:
             bool: True if position is valid, False otherwise.
         """
-        if (not isinstance(position, tuple) or len(position) != 2 or
+        if (
+                not isinstance(position, tuple) or len(position) != 2 or
                 not all(isinstance(num, int) and num >= 0 for num in position)
                 ):
             raise TypeError("position must be a tuple of 2 positive integers")
