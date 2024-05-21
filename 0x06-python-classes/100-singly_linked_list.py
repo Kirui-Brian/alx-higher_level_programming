@@ -24,7 +24,8 @@ class Node:
             next_node (Node): The next node in the list, default is None.
 
         Raises:
-            TypeError: If data is not an integer or next_node is not a Node object.
+            TypeError: If data is not an integer
+                        or next_node is not a Node object.
         """
         if self.__validate_data(data):
             self.__data = data
@@ -112,7 +113,7 @@ class Node:
         """
         if isinstance(node, Node) or node is None:
             return True
-        raise TypeError("next_node must be a Node object or None")
+        raise TypeError("next_node must be a Node object")
 
 
 class SinglyLinkedList:
