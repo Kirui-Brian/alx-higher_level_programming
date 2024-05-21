@@ -68,7 +68,8 @@ class Node:
     @next_node.setter
     def next_node(self, value):
         """
-        Setter for the next_node attribute. Validates that the next node is a Node object or None.
+        Setter for the next_node attribute. Validates that the next node is a
+        Node object or None.
 
         Parameters:
             value (Node): The new next node in the list.
@@ -123,7 +124,8 @@ class SinglyLinkedList:
     """
     def __init__(self):
         """
-        Initialization called when an instance of the SinglyLinkedList class is created.
+        Initialization called when an instance of the SinglyLinkedList class
+        is created.
         """
         self.__head = None
 
