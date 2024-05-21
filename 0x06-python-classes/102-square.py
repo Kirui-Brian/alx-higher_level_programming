@@ -69,7 +69,7 @@ class Square:
 
     def __le__(self, other):
         """
-        Checks if the area of this square is less than or equal to another square's area.
+        Checks if the area of this square is < or = to another square's area.
 
         Parameters:
             other (Square): The other square to compare against.
@@ -81,7 +81,7 @@ class Square:
 
     def __gt__(self, other):
         """
-        Checks if the area of this square is greater than another square's area.
+        Checks if the area of this square is > another square's area.
 
         Parameters:
             other (Square): The other square to compare against.
@@ -93,13 +93,15 @@ class Square:
 
     def __ge__(self, other):
         """
-        Checks if the area of this square is greater than or equal to another square's area.
+        Checks if the area of this square is greater than
+        or equal to another square's area.
 
         Parameters:
             other (Square): The other square to compare against.
 
         Returns:
-            bool: True if this square's area is greater or equal, False otherwise.
+            bool: True if this square's area is greater or equal,
+                False otherwise.
         """
         return self.area() >= other.area()
 
