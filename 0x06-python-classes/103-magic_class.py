@@ -3,7 +3,8 @@
 Module: 103-magic_class
 
 This module defines the MagicClass, which represents a circle with a given
-radius. It provides methods to calculate the area and circumference of the circle.
+radius.
+It provides methods to calculate the area and circumference of the circle.
 """
 
 import math
