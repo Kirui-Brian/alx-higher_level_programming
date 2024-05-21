@@ -16,7 +16,7 @@ class Square:
 
     def __init__(self, size=0):
         """
-        Initializes the Square instance with a size. Validates that size is 
+        Initializes the Square instance with a size. Validates that size is
         an integer and is >= 0.
 
         Parameters:
