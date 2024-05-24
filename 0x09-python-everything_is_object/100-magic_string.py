@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-def magic_string():
-    for i in range(1, 11):
-        yield ", ".join(["BestSchool"] * i)
+def magic_string(iterations=[0]):
+    iterations[0] += 1
+    return "BestSchool, " * iterations[0]
